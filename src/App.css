@@ -1,0 +1,55 @@
+/* App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.dresses {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.dress-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+}
+
+.dress-item h2 {
+  font-size: 1.2em;
+}
+
+.dress-item button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dress-item button:hover {
+  background-color: #45a049;
+}
+
+.cart-summary {
+  border-top: 2px solid #ccc;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.cart-summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-summary li {
+  margin: 5px 0;
+}
+
+.total {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
